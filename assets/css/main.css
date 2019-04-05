@@ -2108,11 +2108,13 @@ input, select, textarea {
 
 		#top h1 {
 			margin-top: 0.35em;
+			text-align:center;
 		}
 
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
+			text-align:center;
 		}
 
 			#top p a {
@@ -2429,3 +2431,4 @@ input, select, textarea {
 					}
 
 	}
+
