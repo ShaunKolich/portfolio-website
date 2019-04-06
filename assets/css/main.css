@@ -2057,7 +2057,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: red;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2066,6 +2066,13 @@ input, select, textarea {
 			.icon.featured:before {
 				font-size: 6em;
 			}
+
+/*images*/
+.middle_images{
+width:63%;
+height:60%;
+}
+
 
 /* Wrappers */
 
