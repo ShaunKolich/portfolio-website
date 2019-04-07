@@ -9,6 +9,8 @@
 		<title>Shaun Kolich</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script src= "https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		<script src = "assets/js/contact.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -242,23 +244,23 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form action="https://formspree.io/globalxbank@gmail.com" method="POST">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" placeholder="Name" class ="name"/>
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email" id="email" class = "email" placeholder="Email" />
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
+										<input type="text" name="subject" id="subject" class="subject" placeholder="Subject" />
 									</div>
 									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="message"  id="message" class="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
+											<li class =".submit_button"><input type="submit" value="Send Message" /></li>
 											<li><input type="reset" value="Clear Form" class="alt" /></li>
 										</ul>
 									</div>
@@ -269,13 +271,13 @@
 							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
-								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+								<!-- <li><a href="#" class="icon fa-twitter" ><span class="label">Twitter</span></a></li> -->
+								<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+								<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+								<li><a href="https://www.linkedin.com/in/shaun-kolich-98517450/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li> -->
+								<!-- <li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li> -->
+								<li><a href="https://github.com/ShaunKolich" class="icon fa-github"><span class="label">Github</span></a></li>
 								<!--
 								<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
